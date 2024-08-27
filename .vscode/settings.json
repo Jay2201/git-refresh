@@ -1,0 +1,18 @@
+{
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        {
+            "color": "lightblue",
+            "column": 99
+        }
+    ],
+    "pylint.path": [
+        "/path/to/global/pylint"
+    ],
+    "black-formatter.args": [
+        "--line-length=99"
+    ],
+    "pylint.args": [
+        "--disable=missing-class-docstring"
+    ]
+}
