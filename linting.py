@@ -17,11 +17,11 @@ def divide_numbers(a: int, b: float) -> float:
     Return the quotient of a and b.
 
     Args:
-        a (str): the numerator
+        a (int): the numerator
         b (float): the denominator
 
     Returns:
-        int: the quotient of a and b
+        float: the quotient of a and b
     """
     return a / b
 
@@ -46,7 +46,10 @@ class Book:
     aaf: int
 
 
-my_string = "This is a very long string that should be split " + "into multiple lines to avoid pylint error C0301"
+my_string = (
+    "This is a very long string that should be split "
+    + "into multiple lines to avoid pylint error C0301"
+)
 
 
 my_string = "Hello, World!   "
