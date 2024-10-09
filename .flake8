@@ -1,0 +1,9 @@
+[flake8]
+extend-ignore=
+    E305, E999
+strictness=short
+docstring_style=sphinx
+max-line-length=99
+
+# radon
+radon-max-cc=10

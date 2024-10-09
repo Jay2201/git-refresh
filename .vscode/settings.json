@@ -1,0 +1,26 @@
+{
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        {
+            "color": "#fff",
+            "column": 99
+        }
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        }
+    },
+    "pylint.path": [
+        "/path/to/global/pylint"
+    ],
+    "black-formatter.args": [
+        "--line-length=99"
+    ],
+    "pylint.args": [
+        "--disable=missing-class-docstring"
+    ],
+    "flake8.args": [
+        "--ignore=E305"
+    ]
+}
